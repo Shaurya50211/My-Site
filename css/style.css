@@ -14,10 +14,32 @@ body {
     margin: 0;
 }
 
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
 .bottom-cloud {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.btn {
+    position: relative;
+    border-radius: 8px;
+    bottom: 5px;
+    width: 20rem;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to right, #11cdd4 , #11999e);
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, #30e3cb , #2bc4ad);
 }
 
 h2 {
@@ -41,12 +63,44 @@ h2 {
 }
 
 .gif {
-    height: 20rem;
+    height: 15rem;
+    position: relative;
+}
+
+.code-gif {
+    float: left;
+    margin-right: 30px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 15px;
+}
+
+.bottom-container a {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a {
+
+}
+
+.vb-gif {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 80px;
 }
 
 h3 {
     font-family: 'Source Code Pro', monospace;
     color: #11999E;
+}
+
+a:hover {
+    color: #EAF6F6;
+    text-decoration: underline;
 }
 
 a {
@@ -69,6 +123,11 @@ h1 {
 .top-container {
     padding-top: 100px;
     position: relative;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
 }
 
 .top-cloud {
